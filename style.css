@@ -1,0 +1,132 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-heading{
+   font-size: 40px;
+
+}
+.passion{
+    font-size: 18px;
+}
+b{
+    color: rgb(65, 222, 250);
+}
+.main-para{
+    font-size: 16px;
+    padding-top: 30px;
+}
+.input-email{
+    box-shadow: inset 0 0.0625em 0.125em rgba(10,10,10,.05);
+    max-width: 100%;
+    width: 100%;
+}
+.input-heading{
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 9px 0px 5px 0px;
+}
+.input-textarea{
+    box-shadow: inset 0 0.0625em 0.125em rgba(10,10,10,.05);
+    max-width: 100%;
+    width: 100%;
+}
+.form{
+        background-color: #fff;
+        border-radius: 6px;
+        box-shadow: 19px 1em 2em 0em rgba(65, 222, 250,0.3);
+        color: #4a4a4a;
+        display: block;
+        /* padding: 1.25rem; */
+        padding: 20px 20px 60px 20px;
+}
+.submit-button{
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+    float: right;
+    background-color: #3bdbf7;
+    color: white;
+    border-radius: 5px;
+}
+.logo-img{
+    width: 230px;
+}
+.logo{
+    text-align: center;
+    margin-left: 170px;
+}
+span{
+    color: #3bdbf7;
+}
+/* .points{
+
+    margin-top: 50px;
+} */
+.img{
+    float: right;
+    width: 60px;
+    padding: 10px 0px 0px 40px;
+}
+.point{
+    font-size: 16px;
+    border-left: 6px solid #3bdbf7;
+    margin-top:10px;
+    padding-left: 10px;
+}
+.contact{
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin:10px 0px;
+}
+
+
+
+/* MEDIA QUIRIES */
+@media only screen and (max-width:600px){
+    .main-heading{
+        font-size: 22px;
+    }
+    .passion{
+        font-size: 14px;
+    }
+    .main-para{
+        font-size: 12px;
+        padding-top: 15px;
+    }
+    .input-heading{
+        font-size: 16px;
+    }
+    .input-textarea{
+        width: 100%;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    .form{
+        background-color: whitesmoke;
+        padding: 30px 20px 80px 30px;
+    }
+    .submit-button{
+        padding: 8px;
+        font-size: 12px;
+    }
+    .logo-img{
+        width: 140px;
+    }
+    .input-email{
+        font-size: 16px;
+    }
+    .logo{
+    text-align: center;
+    margin-left: 110px;
+}
+.img{
+    float: right;
+    width: 50px;
+    padding: 20px 5px 0px 25px;
+}
+.point{
+    font-size: 10px;
+}
+}
